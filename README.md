@@ -12,8 +12,16 @@ EMOTIONAL BOT/
 ├── .gitignore                
 ├── requirements.txt          
 ```
+### ✅ CLONAR el proyecto desde GitHub
 ```
-curl -X POST http://127.0.0.1:5000/analizar ^
-  -H "Content-Type: application/json" ^
-  -d "{\"mensaje\": \"no me gustó nada\"}"
+git clone https://github.com/dfleper/Emotional-Bot.git
+cd Emotional Bot
+```
+### ✅ Arrancar Proyecto
+```
+start start_project.bat
+```
+### ✅ Test
+```
+start test_api.bat
 ```
